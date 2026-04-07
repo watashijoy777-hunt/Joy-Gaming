@@ -1,0 +1,45 @@
+*
+{
+    margin: 1px;
+    padding:2px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+.board
+{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.right
+{
+    justify-content:right;
+}
+.center
+{
+    justify-content: center;
+}
+.justify-between
+{
+    justify-content: space-between;
+}
+.justify-around
+{
+ justify-content: space-around;
+}
+#box
+{
+    border: 3px solid black;
+    width: 10%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+
+}
